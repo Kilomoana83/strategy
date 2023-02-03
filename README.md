@@ -1,5 +1,15 @@
 # strategy-game
 
+## project structure
+
+### Frontend
+
+- used latest Unity LTS Version 2021.3.18f1
+
+### Pipeline
+
+- used GitHub Actions to build APK (can be downloaded via the following link ADD_LINK)
+
 ## mission
 
 - A building which creates some units, they move around toward an area and are deleted, explode or die  

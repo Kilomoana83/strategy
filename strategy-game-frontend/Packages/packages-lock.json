@@ -1,5 +1,18 @@
 {
   "dependencies": {
+    "com.erdiizgi.datastructures": {
+      "version": "https://github.com/erdiizgi/DSUnity.git#v0.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "650007855ae04e4cf210a1259cb11ee67ad318ad"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.0",
       "depth": 0,

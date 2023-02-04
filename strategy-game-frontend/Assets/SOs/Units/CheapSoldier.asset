@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce3f2edf415446b8bae044bb9606768, type: 3}
+  m_Name: CheapSoldier
+  m_EditorClassIdentifier: 
+  AbilityPlayer: {fileID: 11400000, guid: 8a400725d9d4c4373bbb85b4ac8e705c, type: 2}
+  AbilityEnemy: {fileID: 11400000, guid: 59662b0322fa5460491af0a916f81baa, type: 2}
+  AssetPlayer: {fileID: -1951536729, guid: 311cbc349bd7d490aa25b42e57cda26c, type: 3}
+  AssetEnemy: {fileID: 780722337, guid: 311cbc349bd7d490aa25b42e57cda26c, type: 3}
+  HitPoints: 5
+  GoldCosts: 10
+  GoldRewardPerDeath: 50

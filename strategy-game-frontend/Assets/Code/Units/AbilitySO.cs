@@ -4,11 +4,11 @@ using UnityEngine;
 public class AbilitySO : ScriptableObject
 {
     [SerializeField]
-    private int m_range;
+    private int m_range = 0;
     [SerializeField]
-    private int m_damage;
+    private int m_damage = 1;
     [SerializeField]
-    private int m_speed;
+    private int m_speed = 1;
 
     private int range;
     private int damage;

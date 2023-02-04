@@ -16,7 +16,7 @@
 
 ### Pipeline
 
-- used GitHub Actions to build APK (can be downloaded via the following link ADD_LINK)
+- used GitHub Actions to build APK (can be downloaded via the following link https://github.com/Kilomoana83/strategy/actions just click the latest build and scroll down to artifacts)
 
 ## decisions
 

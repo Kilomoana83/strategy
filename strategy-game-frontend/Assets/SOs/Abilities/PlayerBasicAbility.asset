@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90f51a67b3e9e4f5288f9affa90ec063, type: 3}
   m_Name: PlayerBasicAbility
   m_EditorClassIdentifier: 
-  Range: 0
-  Damage: 1
-  Speed: 1
+  m_range: 0
+  m_damage: 1
+  m_speed: 1

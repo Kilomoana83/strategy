@@ -78,13 +78,18 @@ via Backend
 
 # given
 
-## mission
+## mission (with comments on what has been achieved/how its working)
 
 - A building which creates some units, they move around toward an area and are deleted, explode or die  
+    - the player and some enemy starts with a base; this base automatically creates units. They automatically move towards the enemy. Further buildings can be placed to create more units; the enemy will also build further buildings
 - Have a worker collect a resource and increment a simple UI element to indicate the amount collected 
+    - workers can be build from gold earned by killing enemies; those workers will search for trees, harvest them and bring the ressources back to the base; you will see an increase of wood one earned; ressourced will expire, so new trees should be build
 - Make a UI to manage a few different resources, then use those resources to place/construct a building in the environment, and update the resources 
+    - wood and gold is available as ressources and harvested through trees and by killing enemies
 - Construct multiple buildings of the same type but don’t let them build on top of each other, bonus points if you decrement resources for doing so 
+    - you can build further barracks to create more units, barracks cost wood
 - Implement a spell or “ability” attack on a group of baddies, visibly affect them, and expose the ability to modify a parameter of the attack – maybe radius or intensity?  
+    - all parameters of the own units ability can be upgraded with gold
 - Any combination of the above. We just made this stuff up.  
 
 ## contraints

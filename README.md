@@ -10,6 +10,10 @@
 
 - I have shortly considered doing a simple backend to store user data but ditched that idea in favour of game code (thats why there is a frontend folder)
 
+### manual_build
+
+- there is a folder with a manual build APK; just to be sure, in case the pipeline did not produce something useful
+
 ### Pipeline
 
 - used GitHub Actions to build APK (can be downloaded via the following link ADD_LINK)
@@ -75,6 +79,10 @@ via Backend
 - better pathfinding for more interesting maps (blockers; maybe blockers like stones would require specific units to remove them)
 - More use of SOs (better upgrading of Abilities, etc.)
 - the currency handling is super simplified and hardcoded; that would also be a change to centralice a Wallet System, also for later monetisation
+
+## test
+
+- I have tested the application (due to no existing android device) in the android studio simulator on a virtual phone as well as on a virtual tablet
 
 # given
 

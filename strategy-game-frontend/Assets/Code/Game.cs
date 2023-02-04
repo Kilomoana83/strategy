@@ -105,7 +105,7 @@ public class Game : MonoBehaviour
         float worldHeight = m_camera.orthographicSize * 2;
         float worldWidth = worldHeight * aspect;
         Bounds bounds = m_defaultTile.Asset.bounds;
-        m_width = (int)Mathf.Ceil(worldWidth / bounds.size.x);
+        m_width = (int)Mathf.Ceil(worldWidth / bounds.size.x) - 1;
         m_height = (int)Mathf.Ceil(worldHeight / bounds.size.y);
     }
 

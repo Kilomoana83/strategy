@@ -52,7 +52,7 @@ public class Unit : MonoBehaviour
         int speed = Player == PlayerType.Player ? UnitSO.AbilityPlayer.Speed : UnitSO.AbilityEnemy.Speed;
         int damage = Player == PlayerType.Player ? UnitSO.AbilityPlayer.Damage : UnitSO.AbilityEnemy.Damage;
 
-        if (Time.time - 0.25f > lastSearchTick)
+        if (Time.time - 0.05f > lastSearchTick)
         {
             lastSearchTick = Time.time;
             SearchForValidTarget();

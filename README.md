@@ -67,6 +67,7 @@ Only where I found it usesful; The rest of the code is simple and should be self
 ## what could be build on top / next steps
 
 - AI in general; only focussed more on the basic player behaviour (on some parts with enemy in mind, but due to time constraints no enemy AI for now)
+- due to some quick wins and dirty code the performance, especially on mobile should be improved
 - Duplicated code; there is some parts just duplicated to have code quickly available; that should be removed
 - as during the development, especially the units grew, a proper state machine would have made sense; that should be one of the next steps
 - multiplayer (optional; could be made fun with more variations in AI as well)
